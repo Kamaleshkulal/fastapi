@@ -1,0 +1,17 @@
+fastapi installation:
+pip3 install fastapi                        
+
+
+uvicorn installation:
+pip3 install "uvicorn[standard]"
+
+to create environment:
+python3 -m venv venv 
+
+
+source venv/bin/activate
+
+
+to run a server:
+uvicorn main:app --reload
+
